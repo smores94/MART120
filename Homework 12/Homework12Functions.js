@@ -120,9 +120,9 @@ function draw()
 function createBorders()
 {
 //top border
-rect(0,0,width,0);
+rect(0,0,width,15);
 //left border
-rect(0,0,0,height);
+rect(15,0,0,height);
 //bottom border
 rect(0,height-10,width,10);
 //right border
@@ -174,9 +174,9 @@ function createcharacterMovement()
      //fill with color shape
      {
      fill (249,107,3);
-     circle (shapeX,shapeY,10);
+     circle (600,400,10);
      fill (255, 204, 100);
-     rect (20, 20, 60, 60);
+     rect (220, 120, 60, 60);
      }
      function createmoveshape()
      //move shape
